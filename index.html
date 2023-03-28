@@ -5,21 +5,694 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./statics/css/app.css">
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/common.js"></script>
-    <script src="js/main.js"></script>
+    <script src="./statics/js/jquery-1.12.4.min.js"></script>
+    <script src="./statics/js/common.js"></script>
+    <script src="./statics/js/main.js"></script>
     <title>싸인오케이 | 프리미엄 전자계약</title>
 </head>
 <body>
-    <div>안녕하세요</div>
-    <div>안녕하세요</div>
-    <div>안녕하세요</div>
-    <div>안녕하세요</div>
-    <div>안녕하세요</div>
-    <div>안녕하세요</div>
-    <div>안녕하세요</div>
-    <div>안녕하세요</div>
-    <div>안녕하세요</div>
-    <div>안녕하세요</div>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <!-- logo -->
+            <h1 class="header__logo">
+                <a href="javascript:void(0)">
+                    <img src="" alt="logo" class="">
+                </a>
+            </h1>
+            <!-- nav -->
+            <nav class="nav">
+                <ul class="gnb">
+                    <li class="gnb__item list__item">
+                        <a href="javascript:void(0)">
+                            서비스 소개
+                        </a>
+                        <ul class="sub-gnb">
+                            <li class="sub-gnb__item list__item">
+                                <a href="javascript:void(0)">sub-menu a</a>
+                            </li>
+                            <li class="sub-gnb__item list__item">
+                                <a href="javascript:void(0)">sub-menu a</a>
+                            </li>
+                            <li class="sub-gnb__item list__item">
+                                <a href="javascript:void(0)">sub-menu a</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="gnb__item list__item">
+                        <a href="javascript:void(0)">
+                            고객 사례
+                        </a>
+                        <ul class="sub-gnb">
+                            <li class="sub-gnb__item list__item">
+                                <a href="javascript:void(0)">sub-menu a</a>
+                            </li>
+                            <li class="sub-gnb__item list__item">
+                                <a href="javascript:void(0)">sub-menu a</a>
+                            </li>
+                            <li class="sub-gnb__item list__item">
+                                <a href="javascript:void(0)">sub-menu a</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="gnb__item list__item">
+                        <a href="javascript:void(0)">
+                            가격 안내
+                        </a>
+                        <ul class="sub-gnb">
+                            <li class="sub-gnb__item list__item">
+                                <a href="javascript:void(0)">sub-menu a</a>
+                            </li>
+                            <li class="sub-gnb__item list__item">
+                                <a href="javascript:void(0)">sub-menu a</a>
+                            </li>
+                            <li class="sub-gnb__item list__item">
+                                <a href="javascript:void(0)">sub-menu a</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="gnb__item list__item">
+                        <a href="javascript:void(0)">
+                            보안/인증
+                        </a>
+                        <ul class="sub-gnb">
+                            <li class="sub-gnb__item list__item">
+                                <a href="javascript:void(0)">sub-menu a</a>
+                            </li>
+                            <li class="sub-gnb__item list__item">
+                                <a href="javascript:void(0)">sub-menu a</a>
+                            </li>
+                            <li class="sub-gnb__item list__item">
+                                <a href="javascript:void(0)">sub-menu a</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="gnb__item list__item">
+                        <a href="javascript:void(0)">
+                            체험 및 도입
+                        </a>
+                        <ul class="sub-gnb">
+                            <li class="sub-gnb__item list__item">
+                                <a href="javascript:void(0)">sub-menu a</a>
+                            </li>
+                            <li class="sub-gnb__item list__item">
+                                <a href="javascript:void(0)">sub-menu a</a>
+                            </li>
+                            <li class="sub-gnb__item list__item">
+                                <a href="javascript:void(0)">sub-menu a</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="button-list">
+                <li class="list__item button__item">
+                    <a href="javascript:void(0)" class="button is-secondary">
+                        도장 만들기
+                    </a>
+                </li>
+                <li class="list__item button__item">
+                    <a href="javascript:void(0)" class="button is-primary">
+                        무료로 시작하기
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- / header -->
+    <!-- 싸인오케이와 함께라면 계약도 간편할 수 있어요 -->
+    <article class="article has-background">
+        <div class="container">
+            <div class="article-title ">
+                <p class="article-title__category">프로세스</p>
+                <p class="article-title__title">싸인오케이와 함께라면 계약도 간편할 수 있어요</p>
+            </div>
+            <!-- icon-list -->
+            <ul class="icon-list slide-button-list">
+                <li class="icon-list__item" onclick="moveSlide(this,'upload')">
+                    <div class="icon__box img-box is-active">
+                        <img src="" alt="" class="icon-list__img">
+                    </div>
+                    <div class="icon-list__text-box">
+                        <p class="icon-list__number">01</p>
+                        <p class="">계약서 업로드</p>
+                    </div>
+                </li>
+                <li class="icon-list__item">
+                    <div class="icon__box img-box" onclick="moveSlide(this,'request')">
+                        <img src="" alt="" class="icon-list__img">
+                    </div>
+                    <div class="icon-list__text-box">
+                        <p class="icon-list__number">02</p>
+                        <p class="">작성 및 서명 요청</p>
+                    </div>
+                </li>
+                <li class="icon-list__item">
+                    <div class="icon__box img-box" onclick="moveSlide(this,'sign')">
+                        <img src="" alt="" class="icon-list__img">
+                    </div>
+                    <div class="icon-list__text-box">
+                        <p class="icon-list__number">03</p>
+                        <p class="">계약서 서명</p>
+                    </div>
+                </li>
+                <li class="icon-list__item">
+                    <div class="icon__box img-box" onclick="moveSlide(this,'complete')">
+                        <img src="" alt="" class="icon-list__img">
+                    </div>
+                    <div class="icon-list__text-box">
+                        <p class="icon-list__number">04</p>
+                        <p class="">완료 후 교부</p>
+                    </div>
+                </li>
+            </ul>
+            <!-- / icon-list -->
+            <!-- preview-list -->
+            <ul class="preview-list slide-content-list">
+                <li class="preview-list__item slide__item is-active" data-slide="upload">
+                    test1
+                    <div class="preview__img-box img-box ">
+                        <img src="" alt="" class="preview-list__img">
+                    </div>
+                </li>
+                <li class="preview-list__item slide__item" data-slide="request">
+                    test2
+                    <div class="preview__img-box img-box">
+                        <img src="" alt="" class="preview-list__img">
+                    </div>
+                </li>
+                <li class="preview-list__item slide__item" data-slide="sign">
+                    test3
+                    <div class="preview__img-box img-box">
+                        <img src="" alt="" class="preview-list__img">
+                    </div>
+                </li>
+                <li class="preview-list__item slide__item" data-slide="complete"> 
+                    test4
+                    <div class="preview__img-box img-box">
+                        <img src="" alt="" class="preview-list__img">
+                    </div>
+                </li>
+            </ul>
+            <!-- / preview-list -->
+        </div>
+    </article>
+    <!-- 다양한 비즈니스 환경에서 활용해보세요 -->
+    <article class="article">
+        <div class="container">
+            <div class="article-title  align-left">
+                <p class="article-title__title">
+                    싸인오케이를<br>
+                    다양한 비즈니스 환경에서 활용해보세요
+                </p>
+                <ul class="button-list">
+                    <li class="list__item button__item">
+                        <img src="" alt="prev" class="">
+                    </li>
+                    <li class="list__item button__item">
+                        <img src="" alt="next" class="">
+                    </li>
+                </ul>
+            </div>
+            <ul class="biz-list slide-button-list">
+                <li class="biz__item list__item" onclick="moveSlide(this,'general')">일반</li>
+                <li class="biz__item list__item" onclick="moveSlide(this,'test1')">금융/보험</li>
+                <li class="biz__item list__item" onclick="moveSlide(this,'test2')">건설/제조</li>
+                <li class="biz__item list__item" onclick="moveSlide(this,'edu')">교육</li>
+                <li class="biz__item list__item" onclick="moveSlide(this,'test3')">의료/복지</li>
+                <li class="biz__item list__item" onclick="moveSlide(this,'test4')">공공/협회</li>
+                <li class="biz__item is-active list__item" onclick="moveSlide(this,'partner')">가맹</li>
+                <li class="biz__item list__item" onclick="moveSlide(this,'outsourcing')">아웃소싱</li>
+            </ul>
+            <ul class="slide-content-list biz-slide-list">
+                <!-- 일반 -->
+                <li class="biz-slide__item slide__item" data-slide="general">
+                    <div class="biz__img-box img-box">
+                        <img src="" class="" alt=""> 
+                    </div>
+                    <div class="biz__text-box text-box">
+                        <ul class="biz__keyword-area">
+                            <li class="biz-keyword__item tag__item">
+                                일반
+                            </li>
+                            <li class="biz-keyword__item tag__item">
+                                일반
+                            </li>
+                        </ul>
+                        <p class="biz__title article-title__title">
+                            전국의 가맹지점과<br>
+                            비대면으로 계약하는 방법
+                        </p>
+                        <p class="biz__desc">
+                            전국구의 가맹 지점들에게
+                            싸인오케이 <span class="is-primary">일반</span>으로
+                            일괄적으로 서명 받아보세요.
+                        </p>
+                    </div>
+                </li>
+                <!-- 금융/보험 -->
+                <li class="biz-slide__item slide__item" data-slide="test1">
+                    <div class="biz__img-box img-box">
+                        <img src="" class="" alt=""> 
+                    </div>
+                    <div class="biz__text-box text-box">
+                        <ul class="biz__keyword-area">
+                            <li class="biz-keyword__item tag__item">
+                                금융/보험
+                            </li>
+                            <li class="biz-keyword__item tag__item">
+                                금융/보험
+                            </li>
+                        </ul>
+                        <p class="biz__title article-title__title">
+                            전국의 가맹지점과<br>
+                            비대면으로 계약하는 방법
+                        </p>
+                        <p class="biz__desc">
+                            전국구의 가맹 지점들에게
+                            싸인오케이 <span class="is-primary"> 금융/보험</span>으로
+                            일괄적으로 서명 받아보세요.
+                        </p>
+                    </div>
+                </li>
+                <!-- 건설/제조 -->
+                <li class="biz-slide__item slide__item" data-slide="test2">
+                    <div class="biz__img-box img-box">
+                        <img src="" class="" alt=""> 
+                    </div>
+                    <div class="biz__text-box text-box">
+                        <ul class="biz__keyword-area">
+                            <li class="biz-keyword__item tag__item">
+                                건설/제조
+                            </li>
+                            <li class="biz-keyword__item tag__item">
+                                건설/제조
+                            </li>
+                        </ul>
+                        <p class="biz__title article-title__title">
+                            전국의 가맹지점과<br>
+                            비대면으로 계약하는 방법
+                        </p>
+                        <p class="biz__desc">
+                            전국구의 가맹 지점들에게
+                            싸인오케이 <span class="is-primary">건설/제조</span>으로
+                            일괄적으로 서명 받아보세요.
+                        </p>
+                    </div>
+                </li>
+                <!-- 교육 -->
+                <li class="biz-slide__item slide__item" data-slide="edu">
+                    <div class="biz__img-box img-box">
+                        <img src="" class="" alt=""> 
+                    </div>
+                    <div class="biz__text-box text-box">
+                        <ul class="biz__keyword-area">
+                            <li class="biz-keyword__item tag__item">
+                                교육
+                            </li>
+                            <li class="biz-keyword__item tag__item">
+                                교육
+                            </li>
+                        </ul>
+                        <p class="biz__title article-title__title">
+                            전국의 가맹지점과<br>
+                            비대면으로 계약하는 방법
+                        </p>
+                        <p class="biz__desc">
+                            전국구의 가맹 지점들에게
+                            싸인오케이 <span class="is-primary">교육</span>으로
+                            일괄적으로 서명 받아보세요.
+                        </p>
+                    </div>
+                </li>
+                <!-- 의료/복지 -->
+                <li class="biz-slide__item slide__item" data-slide="test3">
+                    <div class="biz__img-box img-box">
+                        <img src="" class="" alt=""> 
+                    </div>
+                    <div class="biz__text-box text-box">
+                        <ul class="biz__keyword-area">
+                            <li class="biz-keyword__item tag__item">
+                                의료/복지
+                            </li>
+                            <li class="biz-keyword__item tag__item">
+                                의료/복지
+                            </li>
+                        </ul>
+                        <p class="biz__title article-title__title">
+                            전국의 가맹지점과<br>
+                            비대면으로 계약하는 방법
+                        </p>
+                        <p class="biz__desc">
+                            전국구의 가맹 지점들에게
+                            싸인오케이 <span class="is-primary">의료/복지</span>으로
+                            일괄적으로 서명 받아보세요.
+                        </p>
+                    </div>
+                </li>
+                <!-- 공공/협회 -->
+                <li class="biz-slide__item slide__item" data-slide="test4">
+                    <div class="biz__img-box img-box">
+                        <img src="" class="" alt=""> 
+                    </div>
+                    <div class="biz__text-box text-box">
+                        <ul class="biz__keyword-area">
+                            <li class="biz-keyword__item tag__item">
+                                공공/협회
+                            </li>
+                            <li class="biz-keyword__item tag__item">
+                                공공/협회
+                            </li>
+                        </ul>
+                        <p class="biz__title article-title__title">
+                            전국의 가맹지점과<br>
+                            비대면으로 계약하는 방법
+                        </p>
+                        <p class="biz__desc">
+                            전국구의 가맹 지점들에게
+                            싸인오케이 <span class="is-primary">공공/협회</span>으로
+                            일괄적으로 서명 받아보세요.
+                        </p>
+                    </div>
+                </li>
+                <!-- 가맹 -->
+                <li class="biz-slide__item slide__item is-active" data-slide="partner">
+                    <div class="biz__img-box img-box">
+                        <img src="" class="" alt=""> 
+                    </div>
+                    <div class="biz__text-box text-box">
+                        <ul class="biz__keyword-area">
+                            <li class="biz-keyword__item tag__item">
+                                가맹계약
+                            </li>
+                            <li class="biz-keyword__item tag__item">
+                                광고홍보계약
+                            </li>
+                        </ul>
+                        <p class="biz__title article-title__title">
+                            전국의 가맹지점과<br>
+                            비대면으로 계약하는 방법
+                        </p>
+                        <p class="biz__desc">
+                            전국구의 가맹 지점들에게
+                            싸인오케이 <span class="is-primary">링크계약 기능</span>으로
+                            일괄적으로 서명 받아보세요.
+                        </p>
+                    </div>
+                </li>
+                <!-- 아웃소싱 -->
+                <li class="biz-slide__item slide__item" data-slide="outsourcing">
+                    <div class="biz__img-box img-box">
+                        <img src="" class="" alt=""> 
+                    </div>
+                    <div class="biz__text-box text-box">
+                        <ul class="biz__keyword-area">
+                            <li class="biz-keyword__item tag__item">
+                                아웃소싱
+                            </li>
+                            <li class="biz-keyword__item tag__item">
+                                아웃소싱
+                            </li>
+                        </ul>
+                        <p class="biz__title article-title__title">
+                            전국의 가맹지점과<br>
+                            비대면으로 계약하는 방법
+                        </p>
+                        <p class="biz__desc">
+                            전국구의 가맹 지점들에게
+                            싸인오케이 <span class="is-primary">아웃소싱</span>으로
+                            일괄적으로 서명 받아보세요.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <!-- 슬라이드 눌렀을 때 바뀔 경우 각 slide__item으로 이동 -->
+            <ul class="logo-list">
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+            </ul>
+        </div>
+    </article>
+    <!-- 보안회사 1등, 한국정보인증 -->
+    <article class="article" id="main-kica">
+        <div class="container">
+            <div class="article-title">
+                <p class="article-title__category is-secondary">보안회사 1등, 한국정보인증</p>
+                <p class="article-title__title">
+                    싸인오케이는 20년 전자서명 기술력이 담긴 서비스입니다
+                </p>
+            </div>
+            <ul class="square-list">
+                <li class="square__item">
+                    <p class="square__soft">
+                        전자서명<br>
+                        시장점유율
+                    </p>
+                    <p class="square__accent">
+                        1위
+                    </p>
+                </li>
+                <li class="square__item">
+                    <p class="square__soft">
+                        전자서명인증사업자<br>
+                        본인확인기관
+                    </p>
+                    <p class="square__accent">
+                        국내 유일
+                    </p>
+                </li>
+                <li class="square__item">
+                    <p class="square__soft">
+                        공동인증서<br>
+                        고객 수
+                    </p>
+                    <p class="square__accent">
+                        460만+
+                    </p>
+                </li>
+                <li class="square__item">
+                    <p class="square__soft">
+                        신용등급
+                    </p>
+                    <p class="square__accent">
+                        AA
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </article>
+    <!-- ”고객이 말하다” -->
+    <article class="article">
+        <div class="container">
+            <div class="article-title">
+                <p class="article-title__category">싸인오케이 고객 후기</p>
+                <p class="article-title__title">
+                    "고객이 말하다"
+                </p>
+            </div>
+        </div>
+        <ul class="card-list">
+            <li class="card__item list__item">
+                <div class="card__text-box text-box">
+                    <p class="card__title">
+                        싸인오케이 덕분에
+                        <span class="is-primary">종이계약서의
+                        번거로움</span>이 사라졌어요
+                    </p>
+                    <a href="javascript:void(0)" class="button is-link">
+                        자세히보기
+                        <img src="" class="" alt="arrow">
+                    </a>
+                </div>
+                <div class="img-box card__img-box">
+                    <img src="" alt="logo" class="">
+                </div>
+            </li>
+            <li class="card__item list__item">
+                <div class="card__text-box text-box">
+                    <p class="card__title">
+                        <span class="is-primary">다양한 계약업무</span>에
+                        싸인오케이를
+                        활용하고 있어요
+                    </p>
+                    <a href="javascript:void(0)" class="button is-link">
+                        자세히보기
+                        <img src="" class="" alt="arrow">
+                    </a>
+                </div>
+                <div class="img-box card__img-box">
+                    <img src="" alt="logo" class="logo">
+                </div>
+            </li>
+            <li class="card__item list__item">
+                <div class="card__text-box text-box">
+                    <p class="card__title">
+                        직원들과 계약하는
+                        <span class="is-primary">업무시간이
+                        단축</span>되었습니다.
+                    </p>
+                    <a href="javascript:void(0)" class="button is-link">
+                        자세히보기
+                        <img src="" class="" alt="arrow">
+                    </a>
+                </div>
+                <div class="img-box card__img-box">
+                    <img src="" alt="logo" class="">
+                </div>
+            </li>
+            <li class="card__item list__item">
+                <div class="card__text-box text-box">
+                    <p class="card__title">
+                        싸인오케이 덕분에
+                        <span class="is-primary">종이계약서의
+                        번거로움</span>이 사라졌어요
+                    </p>
+                    <a href="javascript:void(0)" class="button is-link">
+                        자세히보기
+                        <img src="" class="" alt="arrow">
+                    </a>
+                </div>
+                <div class="img-box card__img-box">
+                    <img src="" alt="logo" class="">
+                </div>
+            </li>
+            <li class="card__item list__item">
+                <div class="card__text-box text-box">
+                    <p class="card__title">
+                        <span class="is-primary">다양한 계약업무</span>에
+                        싸인오케이를
+                        활용하고 있어요
+                    </p>
+                    <a href="javascript:void(0)" class="button is-link">
+                        자세히보기
+                        <img src="" class="" alt="arrow">
+                    </a>
+                </div>
+                <div class="img-box card__img-box">
+                    <img src="" alt="logo" class="">
+                </div>
+            </li>
+        </ul>
+    </article>
+    <!-- 이미 많은 기업들이 싸인오케이로 계약업무의 혁신을 경험하였습니다 -->
+    <article class="article" id="main-reference">
+        <div class="container">
+            <div class="article-title">
+                <p class="article-title__title">
+                    이미 많은 기업들이 싸인오케이로 계약업무의 혁신을 경험하였습니다
+                </p>
+                <a href="javascript:void(0)" class="button is-link">
+                    고객 사례 자세히보기
+                    <img src="" class="" alt="arrow">
+                </a>
+            </div>
+        </div>
+        <div class="">
+            <ul class="logo-list">
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+            </ul>
+            <ul class="logo-list">
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+            </ul>
+            <ul class="logo-list">
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+                <li class="logo__item list__item">
+                    <img src="" alt="" class="logo">
+                </li>
+            </ul>
+        </div>
+       
+    </article>
+    <article class="article has-background">
+        <div class="container">
+            <div class="article-title">
+                <p class="article-title__title">싸인오케이와 함께라면 계약도 간편할 수 있어요</p>
+            </div>
+            <ul class="button-list">
+                <li class="list__item button__item">
+                    <a href="javascript:void(0)" class="button is-secondary is-large">
+                        도입 문의하기
+                    </a>
+                </li>
+                <li class="list__item button__item">
+                    <a href="javascript:void(0)" class="button is-primary is-large">
+                        무료로 시작하기
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </article>
+    <footer class="footer">
+        <div class="container">
+            
+        </div>
+    </footer>
 </body>
 </html>
