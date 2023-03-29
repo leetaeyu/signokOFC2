@@ -4,13 +4,6 @@
 @import url(./fonts.css);
 @import url(./base.css);
 @import url(./common.css);
-<<<<<<< HEAD
-/* @import url(./style.css);
-@import url(./main.css); */
-=======
-/* @import url(./style.css); */
-/* @import url(./main.css); */
->>>>>>> 6f520f173d45a23df214b90bdc1b363876d9e737
 
 body {
     overflow-x: hidden;
@@ -23,7 +16,6 @@ body {
 
 /* video */
 .main-video {
-<<<<<<< HEAD
     /* margin-top: -144px; */
 }
 .video-container {
@@ -49,12 +41,6 @@ body {
     padding-top: 6px;
 }
 
-
-=======
-    margin-top: -144px;
-}
-
->>>>>>> 6f520f173d45a23df214b90bdc1b363876d9e737
 /* article design */
 .article{
     /* 수정필요 */
@@ -151,10 +137,6 @@ body {
     text-align: right;
 }
 .preview__img-box{
-<<<<<<< HEAD
-    /* background: black; */
-=======
->>>>>>> 6f520f173d45a23df214b90bdc1b363876d9e737
     width: 86.66666666666667%;
     padding-top: 65%;
 }
@@ -279,20 +261,11 @@ body {
 
 /* header */
 .header .container{
-<<<<<<< HEAD
     position: fixed;
     top:0;
     left: 0;
     padding:40px 0;
     z-index: 1;
-=======
-    position: relative;
-    padding:40px 0;
-    z-index: 1;
-}
-.header-wrap {
-    background-color: #ED4559;
->>>>>>> 6f520f173d45a23df214b90bdc1b363876d9e737
 }
 .header__logo{
     display: inline-block;
