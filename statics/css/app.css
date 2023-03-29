@@ -4,12 +4,21 @@
 @import url(./fonts.css);
 @import url(./base.css);
 @import url(./common.css);
-@import url(./style.css);
-@import url(./main.css);
+/* @import url(./style.css); */
+/* @import url(./main.css); */
+
+body {
+    overflow-x: hidden;
+}
 
 /* container */
 .container{
     margin:0 20.8%; /*약400px*/
+}
+
+/* video */
+.main-video {
+    margin-top: -144px;
 }
 
 /* article design */
@@ -108,7 +117,6 @@
     text-align: right;
 }
 .preview__img-box{
-    background: black;
     width: 86.66666666666667%;
     padding-top: 65%;
 }
@@ -155,7 +163,7 @@
 .biz__img-box{
     width:40%;
     padding-top:30%;
-    background:black;
+    /* background:black; */
 }
 
 #main-kica{
@@ -163,6 +171,7 @@
     /* 이미지로 수정 */
     background: #F9FAFC;
 }
+
 /* square */
 .square-list{
     margin-top: 160px;
@@ -233,16 +242,22 @@
 
 /* header */
 .header .container{
+    position: relative;
     padding:40px 0;
+    z-index: 1;
+}
+.header-wrap {
+    background-color: #ED4559;
 }
 .header__logo{
     display: inline-block;
     width: 104px;
-    border: 1px solid black;
     margin-right: 64px;
+    background-color: #5763E9;
 }
 .nav{
     display: inline-block;
+    background-color: #8a8a9d;
 }
 .header .button-list{
     display: inline-block;
